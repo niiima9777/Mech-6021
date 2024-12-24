@@ -1,0 +1,9 @@
+clc;
+H=50;
+R=18;
+b=0.5;
+F=13.3;
+c1=4.3;
+c2=6.5;
+A=100;
+sim('Tank_simulink.slx')
